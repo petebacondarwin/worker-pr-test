@@ -14,17 +14,24 @@ jobs:
         uses: actions/checkout@v3
         with:
           fetch-depth: 0
+
       - uses: pnpm/action-setup@v2
         with:
           version: 8.8.0
+
       - name: Use Node.js 18.19.0
         uses: actions/setup-node@v3
         with:
           node-version: 18.19.0
           cache: "pnpm"
+
+      - name: Install NPM Dependencies
+        run: pnpm install --frozen-lockfile
+
       - name: Configure Git
         run: |
           git config --global user.email wrangler@cloudflare.com
           git config --global user.name 'Wrangler automated PR updater'
+
       - name: Ensure Deploy PRs
         run: pnpm ts-node .github/scripts/update-deploy-prs.ts
