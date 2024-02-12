@@ -23,7 +23,7 @@ async function getDeployPRs(octokit: Octokit) {
 }
 
 async function getDeployBranches() {
-  const branches = execSync("git branch", {
+  const branches = execSync("git branch --list -r", {
     encoding: "utf8",
   });
   console.log(branches);
