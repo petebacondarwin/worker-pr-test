@@ -8,6 +8,7 @@ import { execSync } from "child_process";
   console.log(deployWorkerPRs.map((pr) => pr.title));
 
   const deployBranches = await getDeployBranches();
+  console.log(deployBranches);
 })();
 
 async function getDeployPRs(octokit: Octokit) {
@@ -26,6 +27,7 @@ async function getDeployBranches() {
   const branches = execSync("git branch --list -r", {
     encoding: "utf8",
   });
-  console.log(branches);
-  return branches;
+  return branches
+    .split("\n")
+    .map((branch) => branch.replace(/origin\/(.*)\s*/g, "$1").trim());
 }
