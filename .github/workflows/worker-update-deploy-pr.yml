@@ -35,3 +35,5 @@ jobs:
 
       - name: Ensure Deploy PRs
         run: pnpm ts-node .github/scripts/update-deploy-prs.ts
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
