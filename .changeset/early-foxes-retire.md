@@ -1,0 +1,5 @@
+---
+"package-a": minor
+---
+
+xxxxx
