@@ -1,5 +1,11 @@
 # package-b
 
+## 1.0.3
+
+### Patch Changes
+
+- e08919d: Just package a
+
 ## 1.0.2
 
 ### Patch Changes
