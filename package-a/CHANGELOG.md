@@ -1,5 +1,11 @@
 # package-a
 
+## 1.0.3
+
+### Patch Changes
+
+- dc5d1a6: Just a
+
 ## 1.0.2
 
 ### Patch Changes
