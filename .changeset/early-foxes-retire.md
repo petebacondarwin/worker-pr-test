@@ -1,5 +1,0 @@
----
-"package-a": minor
----
-
-xxxxx
