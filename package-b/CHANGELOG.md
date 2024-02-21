@@ -1,5 +1,11 @@
 # package-b
 
+## 1.0.4
+
+### Patch Changes
+
+- 02323ef: dddddd
+
 ## 1.0.3
 
 ### Patch Changes
