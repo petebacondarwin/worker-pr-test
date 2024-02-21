@@ -1,5 +1,11 @@
 # package-a
 
+## 2.1.0
+
+### Minor Changes
+
+- 4183339: xxxxx
+
 ## 2.0.0
 
 ### Major Changes
