@@ -1,5 +1,11 @@
 # package-a
 
+## 2.1.2
+
+### Patch Changes
+
+- 075b1e0: ssss
+
 ## 2.1.1
 
 ### Patch Changes
