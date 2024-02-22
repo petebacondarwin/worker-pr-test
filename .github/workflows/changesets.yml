@@ -40,5 +40,5 @@ jobs:
       - name: Deploy Workers
         run: ts-node deploy.ts
         env:
-          PUBLISHED_PACKAGES: %{{ steps.changesets.outputs.publishedPackages }}
+          PUBLISHED_PACKAGES: ${{ steps.changesets.outputs.publishedPackages }}
 
