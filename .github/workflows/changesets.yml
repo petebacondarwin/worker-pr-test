@@ -1,4 +1,4 @@
-name: Changesets
+name: Versioning and Deployment
 
 on:
   push:
@@ -36,3 +36,9 @@ jobs:
           publish: pnpm changeset publish
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+      
+      - name: Deploy Workers
+        run: ts-node deploy.ts
+        env:
+          PUBLISHED_PACKAGES: %{{ steps.changesets.outputs.publishedPackages }}
+
