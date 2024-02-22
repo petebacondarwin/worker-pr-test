@@ -1,5 +1,11 @@
 # package-b
 
+## 1.1.0
+
+### Minor Changes
+
+- cba2e77: bump packages
+
 ## 1.0.4
 
 ### Patch Changes
