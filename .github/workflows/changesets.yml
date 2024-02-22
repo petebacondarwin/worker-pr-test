@@ -36,7 +36,8 @@ jobs:
           publish: pnpm changeset publish
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
-      
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+
       - name: Deploy Workers
         run: pnpm ts-node .github/scripts/deploy.ts
         env:
