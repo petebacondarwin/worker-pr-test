@@ -1,0 +1,4 @@
+name = "package-b"
+main = "src/index.ts"
+compatibility_date = "2024-01-01"
+account_id = "3057da790214b3f8023628d382636e03"
