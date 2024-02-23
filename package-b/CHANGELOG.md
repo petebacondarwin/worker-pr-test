@@ -1,5 +1,11 @@
 # package-b
 
+## 1.2.0
+
+### Minor Changes
+
+- eadc260: sdgowuefghweroghjwrh
+
 ## 1.1.0
 
 ### Minor Changes
