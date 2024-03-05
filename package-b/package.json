@@ -1,4 +1,5 @@
 {
   "name": "package-b",
-  "private": true
+  "private": true,
+  "version": null
 }
