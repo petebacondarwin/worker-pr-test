@@ -1,5 +1,11 @@
 # test-me-noodle
 
+## 1.1.2
+
+### Patch Changes
+
+- 67e6694: blah blah
+
 ## 1.1.1
 
 ### Patch Changes
