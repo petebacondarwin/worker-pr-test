@@ -1,5 +1,11 @@
 # package-b
 
+## null
+
+### Patch Changes
+
+- 7f6bb5d: Update Package B with a patch change
+
 ## 1.2.0
 
 ### Minor Changes
